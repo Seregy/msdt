@@ -2,33 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for kafka-1-producer" enabled="true">
-        <sourceOutputDir name="../../kafka1/kafka-1-producer/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../kafka1/kafka-1-producer/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="kafka-1-producer" />
-      </profile>
-      <profile name="Annotation profile for kafka-1-consumer" enabled="true">
-        <sourceOutputDir name="../../kafka1/kafka-1-consumer/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../kafka1/kafka-1-consumer/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="kafka-1-consumer" />
-      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kafka-1-api" />
+        <module name="kafka-1-consumer" />
+        <module name="kafka-1-producer" />
         <module name="kafka-2-api" />
         <module name="kafka-2-consumer-logger" />
         <module name="kafka-2-consumer-verifier" />
         <module name="kafka-2-producer-logger" />
         <module name="kafka-2-producer-verifier" />
-      </profile>
-      <profile name="Annotation profile for kafka-1" enabled="true">
-        <sourceOutputDir name="../../kafka1/kafka-1-api/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../kafka1/kafka-1-api/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="kafka-1-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

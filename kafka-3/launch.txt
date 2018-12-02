@@ -1,0 +1,31 @@
+Unix
+
+# Start zookeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# Start kafka servers
+bin/kafka-server-start.sh config/server-0.properties
+bin/kafka-server-start.sh config/server-1.properties
+bin/kafka-server-start.sh config/server-2.properties
+
+# Create topics
+docker exec -it kafka-docker_kafka_1 bash
+docker exec -it 01a30c7c546b_kafka-docker_zookeeper_1 bash
+${KAFKA_HOME}/bin/kafka-topics.sh --create --zookeeper ${KAFKA_ZOOKEEPER_CONNECT} --replication-factor 1 --partitions 1 --topic log
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions 3 --topic verify
+
+# Delete topics
+bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic log
+bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic verify
+
+
+docker build -t kafka-1-consumer .
+docker run kafka-1-consumer
+
+docker build -t kafka-1-producer .
+docker run kafka-1-producer
+
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -e HOST_IP=192.168.99.100 -e ZK=localhost:9092 -i -t wurstmeister/kafka /bin/bash
+$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server=$ZK --topic=verify
+
+/sbin/ip route|awk '/default/ { print $3 }'
