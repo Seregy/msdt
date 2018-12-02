@@ -1,31 +1,32 @@
-Unix
+# Launch bash in existing containers
 
-# Start zookeeper
-bin/zookeeper-server-start.sh config/zookeeper.properties
-
-# Start kafka servers
-bin/kafka-server-start.sh config/server-0.properties
-bin/kafka-server-start.sh config/server-1.properties
-bin/kafka-server-start.sh config/server-2.properties
-
-# Create topics
 docker exec -it kafka-docker_kafka_1 bash
 docker exec -it 01a30c7c546b_kafka-docker_zookeeper_1 bash
+
+# Open logs for existing containers
+
+docker logs -f kafka-docker_kafka_1
+docker logs -f kafka-docker_producer_1
+docker logs -f kafka-docker_consumer_1
+
+# Create topics from inside the container
+
 ${KAFKA_HOME}/bin/kafka-topics.sh --create --zookeeper ${KAFKA_ZOOKEEPER_CONNECT} --replication-factor 1 --partitions 1 --topic log
-bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 3 --partitions 3 --topic verify
+${KAFKA_HOME}/bin/kafka-topics.sh --create --zookeeper ${KAFKA_ZOOKEEPER_CONNECT} --replication-factor 1 --partitions 1 --topic verify
 
-# Delete topics
-bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic log
-bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic verify
+# Launch separate kafka container and start consumer in it
 
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock --network=kafka-docker_sb -e HOST_IP=localhost -e BS=kafka:9092 -i -t --name kafka-docker-verify-consumer wurstmeister/kafka /bin/bash
+$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server=$BS --topic=verify
 
-docker build -t kafka-1-consumer .
-docker run kafka-1-consumer
+# Attach to running container
 
-docker build -t kafka-1-producer .
-docker run kafka-1-producer
+docker attach kafka-docker_kafka_1
+docker attach kafka-docker_producer_1
+docker attach kafka-docker_consumer_1
 
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -e HOST_IP=192.168.99.100 -e ZK=localhost:9092 -i -t wurstmeister/kafka /bin/bash
-$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server=$ZK --topic=verify
-
-/sbin/ip route|awk '/default/ { print $3 }'
+# Compose commands
+docker-compose up -d
+docker-compose stop
+docker-compose rm
+docker-compose up -d --build

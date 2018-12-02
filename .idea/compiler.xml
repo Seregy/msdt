@@ -23,4 +23,16 @@
       <module name="kafka1-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka-1-api" options="-parameters" />
+      <module name="kafka-1-consumer" options="-parameters" />
+      <module name="kafka-1-producer" options="-parameters" />
+      <module name="kafka-2-api" options="-parameters" />
+      <module name="kafka-2-consumer-logger" options="-parameters" />
+      <module name="kafka-2-consumer-verifier" options="-parameters" />
+      <module name="kafka-2-producer-logger" options="-parameters" />
+      <module name="kafka-2-producer-verifier" options="-parameters" />
+    </option>
+  </component>
 </project>

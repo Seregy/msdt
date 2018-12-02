@@ -20,8 +20,8 @@ services:
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_ADVERTISED_HOST_NAME: localhost
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
       KAFKA_CREATE_TOPICS: "log:1:1,verify:1:1"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -34,9 +34,7 @@ services:
     ports:
       - "8090:8090"
     environment:
-      spring.kafka.bootstrap-servers: localhost:9092
-    links:
-     - kafka
+      spring.kafka.bootstrap-servers: kafka:9092
     networks:
      - sb
       
@@ -46,8 +44,6 @@ services:
     ports:
       - "8190:8190"
     environment:
-      spring.kafka.bootstrap-servers: localhost:9092
-    links:
-     - kafka
+      spring.kafka.bootstrap-servers: kafka:9092
     networks:
      - sb
