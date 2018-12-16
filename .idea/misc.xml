@@ -7,7 +7,13 @@
         <option value="$PROJECT_DIR$/kafka-1/pom.xml" />
         <option value="$PROJECT_DIR$/kafka1/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-2/pom.xml" />
+        <option value="$PROJECT_DIR$/kubernetes-test-app/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/kafka-2/kubernetes-test-app/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="10" project-jdk-type="JavaSDK">

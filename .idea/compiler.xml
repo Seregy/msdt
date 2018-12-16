@@ -14,6 +14,7 @@
         <module name="kafka-2-consumer-verifier" />
         <module name="kafka-2-producer-logger" />
         <module name="kafka-2-producer-verifier" />
+        <module name="kubernetes-test-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

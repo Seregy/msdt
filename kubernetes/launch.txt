@@ -1,0 +1,6 @@
+docker run -d -p 5000:5000 --restart=always --name local-registry registry:2
+
+docker build . -t localhost:5000/kub-test-app
+
+docker push localhost:5000/kub-test-app
+
