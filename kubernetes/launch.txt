@@ -1,6 +1,26 @@
+minikube start --vm-driver "hyperv" --hyperv-virtual-switch "external-switch" --insecure-registry "localhost:5000"
+
+
+----
+
 docker run -d -p 5000:5000 --restart=always --name local-registry registry:2
 
 docker build . -t localhost:5000/kub-test-app
 
 docker push localhost:5000/kub-test-app
 
+----
+
+kubectl create -f replication.yaml
+ 
+kubectl describe replicationcontrollers/test-app-controller
+
+kubectl delete replicationcontrollers/test-app-controller
+
+kubectl create -f test-service.yaml
+
+kubectl get services 
+
+ kubectl delete service test-app-service
+
+kubectl get pods
