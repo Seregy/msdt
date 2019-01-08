@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-1/kafka-1-api" charset="UTF-8" />
@@ -12,7 +12,6 @@
     <file url="file://$PROJECT_DIR$/kafka-2/kafka-2-consumer-verifier" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-2/kafka-2-producer-logger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-2/kafka-2-producer-verifier" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/kafka-2/kubernetes-test-app" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/kubernetes-test-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-4/kubernetes-test-app" charset="UTF-8" />
   </component>
 </project>

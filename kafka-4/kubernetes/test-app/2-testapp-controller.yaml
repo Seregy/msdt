@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: test-app-container
-        image: localhost:5000/kub-test-app
+        image: seregy/msdt:0.0.1
         ports:
         - containerPort: 8080

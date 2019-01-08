@@ -29,7 +29,7 @@ services:
      - sb
 
   consumer:
-    build: 
+    build:
       context: ../../kafka-1/kafka-1-consumer
     ports:
       - "8090:8090"
@@ -37,9 +37,9 @@ services:
       spring.kafka.bootstrap-servers: kafka:9092
     networks:
      - sb
-      
+
   producer:
-    build: 
+    build:
       context: ../../kafka-1/kafka-1-producer
     ports:
       - "8190:8190"
