@@ -53,7 +53,7 @@ Take a look at created pods:
 kubectl get pods
 ```
 
-Take a look at Producer's logs using pod id, that can be acquired in the previous step:
+Take a look at Producer's logs using pod id, can be acquired in the previous step:
 ```
 kubectl logs producer-controller-{uniquePodId}
 ```
