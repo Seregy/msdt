@@ -6,20 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cqrs-command-rest" />
-        <module name="kubernetes-test-app" />
-        <module name="kafka-2-consumer-verifier" />
-        <module name="cqrs-api" />
-        <module name="cqrs-command-rest-client" />
-        <module name="kafka-2-producer-logger" />
-        <module name="kafka-1-consumer" />
-        <module name="cqrs-query-rest" />
-        <module name="kafka-2-consumer-logger" />
         <module name="kafka-2-api" />
-        <module name="kafka-1-api" />
-        <module name="kafka-1-producer" />
+        <module name="kafka-1-consumer" />
         <module name="cqrs-command-consumer" />
+        <module name="kafka-2-producer-logger" />
+        <module name="cqrs-api" />
         <module name="kafka-2-producer-verifier" />
+        <module name="cqrs-command-rest" />
+        <module name="kafka-2-consumer-verifier" />
+        <module name="kafka-2-consumer-logger" />
+        <module name="kafka-1-api" />
+        <module name="cqrs-command-rest-client" />
+        <module name="kafka-1-producer" />
+        <module name="cqrs-query-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +26,7 @@
       <module name="kafka1-api" target="1.8" />
       <module name="kafka1-consumer" target="1.8" />
       <module name="kafka1-producer" target="1.8" />
+      <module name="kubernetes-test-app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
