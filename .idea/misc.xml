@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/kafka1/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-2/pom.xml" />
         <option value="$PROJECT_DIR$/kubernetes-test-app/pom.xml" />
+        <option value="$PROJECT_DIR$/cqrs/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

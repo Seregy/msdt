@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-1-api" />
-        <module name="kafka-1-consumer" />
-        <module name="kafka-1-producer" />
-        <module name="kafka-2-api" />
-        <module name="kafka-2-consumer-logger" />
-        <module name="kafka-2-consumer-verifier" />
-        <module name="kafka-2-producer-logger" />
-        <module name="kafka-2-producer-verifier" />
+        <module name="cqrs-command-rest" />
         <module name="kubernetes-test-app" />
+        <module name="kafka-2-consumer-verifier" />
+        <module name="cqrs-api" />
+        <module name="cqrs-command-rest-client" />
+        <module name="kafka-2-producer-logger" />
+        <module name="kafka-1-consumer" />
+        <module name="cqrs-query-rest" />
+        <module name="kafka-2-consumer-logger" />
+        <module name="kafka-2-api" />
+        <module name="kafka-1-api" />
+        <module name="kafka-1-producer" />
+        <module name="cqrs-command-consumer" />
+        <module name="kafka-2-producer-verifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +31,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cqrs" options="-parameters" />
+      <module name="cqrs-api" options="-parameters" />
+      <module name="cqrs-command-consumer" options="-parameters" />
+      <module name="cqrs-command-rest" options="-parameters" />
+      <module name="cqrs-command-rest-client" options="-parameters" />
+      <module name="cqrs-query-rest" options="-parameters" />
       <module name="kafka-1-api" options="-parameters" />
       <module name="kafka-1-consumer" options="-parameters" />
       <module name="kafka-1-producer" options="-parameters" />
@@ -34,6 +45,7 @@
       <module name="kafka-2-consumer-verifier" options="-parameters" />
       <module name="kafka-2-producer-logger" options="-parameters" />
       <module name="kafka-2-producer-verifier" options="-parameters" />
+      <module name="kubernetes-test-app" options="-parameters" />
     </option>
   </component>
 </project>
