@@ -52,11 +52,11 @@ services:
     depends_on:
       - cqrs-command-rest
     build:
-      context: cqrs-command-rest
+      context: cqrs-command-rest-client
     ports:
       - "8290:8290"
     environment:
-      rest.url: cqrs-command-rest:8190
+      - REST_URL=cqrs-command-rest:8190
     networks:
       - sb
 

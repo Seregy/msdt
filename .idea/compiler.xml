@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-2-api" />
         <module name="kafka-1-consumer" />
         <module name="cqrs-command-consumer" />
-        <module name="kafka-2-producer-logger" />
-        <module name="cqrs-api" />
         <module name="kafka-2-producer-verifier" />
+        <module name="cqrs-api" />
+        <module name="cqrs-command-rest-client" />
         <module name="cqrs-command-rest" />
         <module name="kafka-2-consumer-verifier" />
         <module name="kafka-2-consumer-logger" />
+        <module name="kafka-2-producer-logger" />
         <module name="kafka-1-api" />
-        <module name="cqrs-command-rest-client" />
+        <module name="kafka-2-api" />
         <module name="kafka-1-producer" />
         <module name="cqrs-query-rest" />
       </profile>

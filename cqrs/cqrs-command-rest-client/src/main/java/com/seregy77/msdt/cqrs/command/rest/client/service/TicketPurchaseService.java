@@ -14,8 +14,8 @@ import java.time.format.DateTimeFormatter;
 @Service
 @RequiredArgsConstructor
 public class TicketPurchaseService {
-    @Value("${rest.url:http://localhost:8190")
-    private final String URL;
+    @Value("${rest_url:http://localhost:8190}")
+    private String URL;
 
     private final RestTemplate restTemplate = new RestTemplate();
 
