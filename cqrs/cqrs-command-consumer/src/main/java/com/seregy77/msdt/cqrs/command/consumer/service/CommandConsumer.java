@@ -15,6 +15,7 @@ import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Optional;
+import java.util.UUID;
 
 @Slf4j
 @Service
@@ -42,7 +43,7 @@ public class CommandConsumer {
         return ticketRepository.save(updatedTicket);
     }
 
-    private TicketEntity findOrCreateTicket(long externalId) {
+    private TicketEntity findOrCreateTicket(UUID externalId) {
         Optional<TicketEntity> ticketEntityOptional = ticketRepository.findByExternalId(externalId);
         if (ticketEntityOptional.isPresent()) {
             return ticketEntityOptional.get();

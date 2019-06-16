@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.UUID;
 
 @Slf4j
 @Service
@@ -19,7 +20,7 @@ public class TicketPurchaseService {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    public void purchaseTicket(long id) {
+    public void purchaseTicket(UUID id) {
         log.info("{} | Send request for purchasing ticket {}",
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")), id);
         restTemplate.postForEntity(URL + "/ticket/purchased/", new PurchaseTicketCommand(id), Void.class);

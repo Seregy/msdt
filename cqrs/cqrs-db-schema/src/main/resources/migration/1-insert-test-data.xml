@@ -1,0 +1,2509 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+
+    <changeSet id="2019-06-16-6" author="seregy77">
+        <comment>Insert test data into ticket table</comment>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d70dc436-38bb-482f-abe0-592a52d0211d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="29026ad7-be86-4f77-a9ed-178473d606d6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="152de56e-67f4-467a-ad96-b246fa6571a7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="768d2e85-f7ac-4b88-b753-3a6be8c54721"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f8b6b990-223a-4500-a59f-13e6961c1187"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1c670805-fb57-4a20-ab05-3e81a477421f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7ab8defa-41ac-4204-bb03-fc3de6c5d070"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1c6df667-e22e-4ab8-8c06-a42c098476fd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2af92c0a-b519-4944-8a88-754d68258176"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f1d8e91f-2742-4b3a-96de-39040c432fa8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="81ef4fb8-f0fb-4810-9686-fc7ee65a7776"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a3485895-c587-48a1-863f-7e1ebdc4579a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="46b93984-03b9-4f35-b286-c3d82c2e1895"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1ac8dbb3-6845-4cd9-be28-6ceb6f4e9c5c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="871cf5e9-2fb9-4c91-a09c-67e2b515f9eb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6be8d8fb-2392-487c-8aeb-eca0a0dd3ca1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7d5724a0-cf8b-4df1-ba6c-2b90f3caf0a7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="725460ee-95d6-4550-b3ad-47d97c48eb97"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4da84766-1746-4e97-88e1-aa20b2470db5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a2ead5ae-300b-4bbd-a59d-492468de5cf8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9d672435-c3f2-4adc-be20-b3632454bab9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3d115b3a-fd94-4c58-8ec2-a91fa47e1a41"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="16bb9827-8209-458c-96c1-cbef1dfb17bb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a3ddf59c-42b7-4147-9988-b2eabd0757f8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e80e3402-4e06-4369-964a-7801bed6f445"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b37a5950-ef84-49ad-aa11-064e581d2bec"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="96855550-02df-4354-99f1-90e855056065"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="908b29a6-fd92-4aa0-b2f9-e1522b41637e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="60d5283c-ace1-44f0-9de6-0fba9f9c1cdf"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="40dbb4d0-695b-41ba-8b02-4b744902f752"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6646eec0-3b48-4d63-a48f-3880a4c3b48d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="29eed74e-118a-4e52-bcbb-768d9468f4bf"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="dccd4252-62bb-44b6-9b8f-23cd77963448"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="062ca90c-5a8e-4528-9baf-a1bc7c7149ce"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1e60cd96-d783-436f-9700-4c4fcf760583"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cea96e6e-2651-407d-a9e9-7a7900d77f9d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c0a03a8b-a89e-41c7-9885-272af34ad6df"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e191d836-cd19-47a1-a04a-d51d6f2f1dc9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e82f14ad-3e01-4709-aade-c395a7c60909"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1da1e033-382b-4d0a-80dd-010e7c81dfc0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a9971b11-c050-45ca-953a-727a4d61e9c8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e8502f0d-1e4f-4cbf-b3fd-324670a5acce"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3419289d-a79d-4735-ad4c-40f8d4a506d6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d4de9c25-f921-49cc-a27b-8be19b62dd11"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="636852e9-1d8c-4125-808b-fca2d99c256a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f9b05587-1cc4-4da4-92c2-98e3a06c4458"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ef35eff9-a0fd-4043-bc38-13fb130302aa"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6fffef36-dd5c-4ebb-9df6-26ecb0919786"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fe7a72ba-daff-4f51-84a0-10b256409082"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e1e9d03d-7f63-4f1c-b7fc-a0341c51a84f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="257cd06e-e61e-40f2-9476-9b9ee875af5a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ea641eb8-f8ae-4ed6-a049-979c0e645639"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e0ec1d96-3a0f-4813-85ff-976e48fe4b5d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7f358cb8-132a-4393-9a37-94835b0c61f5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8ae9faa9-35ae-4265-9fae-b88ba2e2f845"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="23c06115-a04c-41da-87bb-cac15f866758"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b9f67496-3312-4d2f-8f96-708cd19381f1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="dae0c0f1-f222-4687-83b6-5040563d0477"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cada8705-80b8-4bce-a4ae-2b4390135490"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="65d9bf74-59e1-493a-ad6d-e4060d2b38bc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cca583f0-dccf-49d1-b9d6-c813a58ca99c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7e58f78c-3b87-49df-8802-48ebac1c0f85"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0c4c6dcf-5f84-4ac5-ab0b-2757b424372c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a491c3b4-81fb-4df9-ba9e-06aaf5986ec0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="29d77d25-2248-480c-9685-c7909acc04f5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1ac9c5b6-95ef-4a06-8b88-244de69b6682"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d83aaf1f-aee2-4fcb-8d3b-6a73c288af25"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c1cc2a20-7b7f-4f85-a26e-f2a75f8593be"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="efa5b3b9-4810-4ab2-b5f5-000dd02a354d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c4dbc747-df91-48da-aaaf-c58414e3d94e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="33bd93cc-254b-4aaa-9818-128abe45649e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="26b58559-4207-4cdc-b84a-160d802234e0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="18810059-9da1-4092-87cc-430b67bb48f1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8fd498df-0436-4663-a8ec-9ace6403334e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a01db294-5118-4d01-8cab-34e432f0002d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="92af5461-3344-46fe-bb1b-92da69f67c35"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d5354d5d-f8dd-4218-8e09-a6a19979c3e0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="89c8b859-5fe7-4d72-88b2-7f1e80a753c7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="53e5abb4-17ea-4689-a8a6-403ed9008ab4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="327e2929-6af4-4796-9336-daa4167507ad"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4229a095-8a59-4e89-b9af-00f32b6d0e7e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9a477f94-348e-418f-a21b-cec6a65c9172"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="20cca1e0-f849-45f3-9e37-8c08087d0e9a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2ccbabf6-059f-4e54-9dec-17651997ee6a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ec1e7be0-4a2a-423e-8fbb-5796e5119ec8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8f14f985-73ec-4792-aa12-55ef26be61fa"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="168c66b8-e905-47c3-9cba-c915b4970d8d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f9eba7db-603d-40bf-a246-f7e80b35e991"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e1dcbda0-cc4a-4bf4-93e3-c459fe783204"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e3e65e2a-e050-4838-9748-f9e599b676a4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0e94487e-c254-42aa-a5a7-8c942ad7ad10"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="72e1ed83-ddbb-4375-b279-d77b3c4cd887"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="076e477d-b75e-4ec3-abd6-0a984b0f9be8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="77f92832-be2e-4d12-9823-387dada7e719"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0426c575-ab9c-4256-ba9f-952a5f3d4556"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7bd9f4b1-aa8f-472c-b1ec-a47e78bee348"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="76149954-9468-4d3d-a10d-3029005c7507"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="600e7607-51f3-4692-a9f2-b1a740a3994b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c272ccee-82bb-4b55-8f9f-188df1e41dad"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="285f2785-a2fd-4590-964c-a305468c8611"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="322bb10a-f975-42f9-a36b-5a0ca0470547"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f874ac6a-a71c-4069-ba11-bfd3264510f9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b6627f4c-99ea-476a-99f1-191f197dcecb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="efca6e80-c131-443d-b8f2-dfd85495a532"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9da908b0-0d9d-472a-bf87-33312ecc6056"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5282ba01-c250-48f1-9689-3bbb8320c5e6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ea0dfcc9-ab2a-4ddb-aa8f-c210209b0f81"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bf8b859a-3f00-4082-b01c-a90a2f319c7f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b2aef96e-1f47-4bfc-8813-c1056d87e16d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6da6404b-f3fe-40a4-a6d1-a8fe9acf1792"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6f0d1500-8af4-45ed-a92c-0ac0d8efe383"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0ac604bd-a32e-40cb-9247-449a46419c02"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="33fe8bbb-e241-4843-8a97-3bf140cc10fe"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="986f4adc-5890-47b8-9f51-f758830717ab"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="553de378-33de-4869-a095-05692b12d47c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a8dd6b9c-493a-4838-9594-bb6b2ef861c9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="14230722-d1d8-41b0-84f4-e4880f414c6b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9748356f-272d-4e57-89c0-f735a04dffb9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e19b3e89-722a-4a91-9a2b-fb89547f2325"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1df191d0-628a-4fb0-b0a8-c88c71406c89"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ab6b5727-647e-4c62-bd31-d8946ca92fe4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bb4c98f2-f1c6-4c5f-9ba6-5dfaaa13595e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c0398504-1474-478f-af86-61cdcfbd345b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="faa4226e-03f5-42a5-95e2-c9de22755363"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="700f8a04-80b9-4fdf-bc9b-1248b6025ced"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="28730db0-798e-461a-b3d7-873a17347c7d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9e3f315f-50af-4510-aae3-30e3d285599f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="24a42fbe-2bd4-4e0d-b9c7-4f4a3bdf5343"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="18bce06b-3601-40cf-ae1b-c73d895164a0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d62353d4-2c30-4c1e-b4e6-da5ddb90635c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ca66ba20-b561-4e9e-b475-fa7be4f8018b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="82a82330-fc5a-4114-a86c-2bd9271de9c4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3c2a3bfd-ecab-49b3-99a2-761e72ba8859"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5bfd343b-b118-40e5-b68c-46ccd5de9d31"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ea473144-0e0c-4815-ba89-571c332b4cbc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9cb4034f-2d14-46f9-84f8-fa2f7cbcc78d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="733cfb94-27aa-491c-8d18-7fb2aac30ba5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f65c083a-8f1e-4b63-976f-7b32bb593605"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9c7b6a29-211e-4b85-81b1-c7dabcea3fdc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="96324aec-9822-44ed-96a4-3241d4e73ded"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d6c8bef6-be65-426a-b0d0-8237c1a90e15"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="876b520e-d56c-41bf-9260-c0edf43e38c8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ee61a86d-b046-41d9-96db-e0d424686e58"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1c0af443-6ccf-48d3-b38a-601558dff5d1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9bf73b3b-ac2e-49c8-85c1-6daf02bc1ba2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7260d5a9-afff-4daa-ab78-2f25640e01f3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="afe96d95-31c1-49c9-afdf-80b080207b88"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1972378e-6ad3-45ad-a980-252a88eb9fd3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7af1b2c2-e36e-41fc-a1ef-7f14a40362be"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="afe74a00-81ce-4c1c-9f77-a15ef4dbf976"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1ef6d2d9-b7a6-431b-8ed6-a96bcec792f1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="39ab3926-02e6-42b3-997c-4459d5f9801b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="099f4ce1-e0f6-421a-96d4-e6cf5f771cc0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="987f060c-57cf-48ab-a59a-5aaa5f0af9d8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a2fa8f6a-69fa-4299-a6fd-8258e110de4e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="184e427c-83d8-416c-afe1-7ffa1a982b54"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="17cb1f76-6eaf-492c-8060-11a722d75b3c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="31cc5ec8-c62e-4aa6-a770-b8895ebe9f47"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="65a5301e-6329-4ba9-9a94-15e5d2ed2868"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5cb5cfa0-5953-4713-890f-4b5f025eeb86"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5a0f5cfe-aa94-4feb-807e-9d910a788bdd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="af582ba4-28cd-4722-b67b-58658ebea8b0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1e6de364-37a5-40b1-93d8-06d4c56b6aac"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4b3fe90d-86a3-47ca-96cc-0ebc87dedabf"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ddee1e32-05d7-4128-b7ed-e9a6b0dcb4ae"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9676c1da-a448-47c3-ba10-7818968cc4c4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="aae1d8d0-3525-4072-b97b-436f5237e7f3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="990c7d44-9a6b-47bd-85ae-e2183aef24c0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e7e2ee73-e11a-4f8f-a6be-27c05c403530"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c1832753-b998-423e-870c-072ff53103fc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7faa3b7b-81c5-4c1e-ab07-10c678e7690a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1976b5ec-55f2-4123-8ca4-c11507a1e9e6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="98ab4ace-0e3c-4207-9d20-e53049d060a0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f7ec9ca2-f5bf-4499-8a0e-cc90b63f3ecd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e549cfa4-ec86-4ccc-a463-6a58690833af"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="37f484b0-94ce-4fe8-a206-ba63b90ec35c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="73f33e05-163c-4bc7-ad37-5f5421faac9b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cc1b8fd3-bccd-4d02-8040-0dcc1230937b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="be2bf61c-8217-4c42-baea-5f9c7c388f10"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="084ba984-6e05-4f9d-a09e-4c45369cbd08"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7b9e9dac-afa5-4ce1-954f-736045de6d20"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="aebfc87c-2a71-464e-aa49-aa798be9fa68"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="41219ceb-16eb-4676-9778-0fd93d5b3348"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7d49fb0d-272d-41e4-84a9-625f1df00491"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a9b5021d-4012-4738-879b-bc7a1b1951e8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f8ecbbf5-ae77-4d5f-aa1a-c79939e78862"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="df6c51fb-1e50-483e-863c-65c9ddbabba0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bb566d3d-3f02-48d1-8a7e-27a3b81b8e3d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="56ceca82-969c-40d1-afd1-d0024fbe539f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="00321665-d5e4-4976-aaeb-364066b47c19"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="211ede76-e240-49a8-9745-aac9024b0f4c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9491efe1-661f-4681-8375-7040ece91bd4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="28a4f0f3-e4b1-4ebf-be18-1f06a3a441d5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a946ea0e-7692-4de3-95c4-40301726f736"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4507b791-5828-4815-a83e-ac4945479be0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6f98a1cd-b9e5-4bc8-ac7b-4f4446d1b8e2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="78fcb725-b9a7-4654-a63a-3cbc5c3912e3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ed07290f-82b6-42bd-a044-679f9bdfaff5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="492b552e-deb9-47af-9b02-90847d51d86d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4d80f3f0-3270-41bd-ad4e-bf64a7486ec3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="79725e8c-9670-40c3-8b2b-1bce54b56d44"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b37d9f33-d0c1-447d-b48d-2942d756b696"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="70d5e720-21fb-4b84-a624-8ff8a6659a19"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="538f8a0c-211b-426b-9a1b-4155599e655b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b7603b98-9413-4610-a144-7fd10b615c40"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9e10a09e-d1cf-44e3-a5bf-d89bfb30783d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ca37f44c-2117-4a3b-ad9b-efc71d84979c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f174f462-79fe-4396-8a5b-ea1e22b2d0b3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9ecb8155-951b-42dd-ab62-e40d7d082878"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c3c6a2e5-7721-4dd5-80b3-efe0524aff83"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="116a12b8-1c86-4b2b-8f11-bbe2c70b6ead"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3b4e8ffd-185c-4021-ab91-d028b7060676"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c369e399-d2ba-46d4-afd5-59d651aa0707"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8aa6ebf0-9672-412c-bd29-99a5ad63b136"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="90520812-c788-4924-ad95-0805a859a2bd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="65835c4e-397d-42d4-8d0f-5cc4476af10b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2fae80a8-375d-4107-9887-6102ddc95a71"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="aff246de-938c-4115-a4c2-d25776144c14"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="642f92d7-f5c7-471f-bff0-80cd5f8474ec"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="434c386b-dc8d-4991-92b2-687caa365c22"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8904b4ee-6cfc-4828-bc7c-9d0f15a97105"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5e05ebaa-179f-4ed8-a701-c94d3de9991c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ca74a252-cdf4-4c40-94d6-e354ed32e75c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="dc7ecca6-068a-4880-8e56-dc778d3c343d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="af6b265a-89a4-47f6-a1e6-4a4685c7e8bd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ac68bac9-203e-42e7-a3e5-24f2eaa8ac73"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="26031bfb-c37e-4790-b6f4-10ede2cb9151"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="640a5288-f3d0-48d0-bf07-83aa8d8fe68d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="39c68cb4-020c-4ae7-b9d8-9e5c79207424"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f3a4e3b2-a0f1-4f7c-8e08-363cf2dcf761"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e09ef3d0-3dd1-49fe-9559-9b6debf80653"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="58551965-80bd-4f6c-8134-8a61d35f0cb0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3551a0d9-c4fa-4391-a5e5-b4121db4582e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fe82ed84-7dee-4647-ba15-d3eb20e60499"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5d59c3c7-d58c-4f5d-b7da-fa16e73a38c3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e5f40ab4-b411-42ba-bbd5-068b8a3d3818"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6a164cd3-d277-4423-b5a4-814b7e42851b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3cd4e7f2-86ee-4065-8a92-9c4a29cb7dca"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b9c4217b-ba61-46d2-8922-572c37943594"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d04f1003-88af-4175-93f9-3704dc7caf77"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="debfdd8a-f26a-4a9c-b78a-f7f8f170a176"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4908a9af-6b5c-45b8-8ab1-fd205a2c6c8e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c40672ed-191c-4023-9036-cc80b76356d8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="66ae5493-6020-4201-baf7-d0f9bdca4be3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="38611968-9520-4b67-b708-3d9dbfb8e24e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="225e2482-a4a4-47d4-bdea-2b6489e0f06e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5e809d8a-dde8-48ad-a470-034b633401e7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3df011d8-f28a-4713-a9e4-fcfc12765140"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d433ceff-05ec-416c-a449-28343bd1fe6c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8c83115f-b20c-464a-a893-ca9eadc9194c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6dcd5ffe-4a3f-4eb6-bb1e-37354e69962c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0b60fac5-8b7e-407d-9d46-130c1a562e32"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="df64f376-8f07-48e3-bd17-fd8a681e81ae"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0041ba25-b984-4d28-b490-bc0830b2c29c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="183bab96-0c0b-468c-802c-6631146b7ba2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1fde93d3-45d5-4394-a35e-d869bdf7218b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="55b219ca-3e3a-4db7-9aff-1cc7094c3d95"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e46861e0-389f-427c-8288-5d8765246d86"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fcd6e507-e212-468e-8fcb-6f08cb1deeec"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="79392178-fbe8-4fd9-95fd-28d89c8ca028"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="70a66963-6dfd-48a4-ba81-3028c0b2994c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="df9c7180-5325-43ce-bb99-09cd56e41dcc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3e898dd8-beb4-4918-83d2-f4611ba0b50e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a8208747-0796-488f-be8e-0183d3bca719"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3f3cac31-bcf9-4a23-8cf1-0d5e56dbae19"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f11891ed-f754-418e-b73f-4178b143e7ea"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="57549f9b-5d24-4ae2-946f-890aa1271df0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fde95755-5b19-428a-9019-10160dd537c7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c0bb1892-62a5-4b8a-ab21-873709313b7e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7cec8f5e-1471-4690-b0f6-63eb5e36e164"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5b58968f-400b-4724-9a85-568d00ee249b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="120efd03-7385-4929-b501-51feb1e53070"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="986d895a-fcfb-48b5-b1bc-07c60679da25"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d3ad39c3-3115-4f13-9482-3753f7eb24a4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7b2c013c-2d85-4f7e-946d-c8709ff1f81d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bafae733-4772-4e6f-9e84-3b264ee2bcaa"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="898c6030-0faf-492c-b2c8-31e509d511f1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="024f55d5-6649-4a0d-b39a-22bf69f3bc40"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bda5d1d3-260b-4b3d-85f2-a171137e8e9b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2dae7659-85ad-4b67-b670-ba296e6adf46"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f73bc912-5a56-4dea-a61c-39d347d0a305"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="50de0c49-7498-40b8-ac95-cac1fd2910cc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="918703c6-0578-42e9-98fd-6a2aab602ddb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="93a94e1b-6948-442d-8618-f40c0b8917dc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="600cb60e-336b-43db-9c44-da884e4d3dd0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9d5789c1-60ae-4119-8f94-564f115e1963"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="45201820-d5bd-4eaa-980d-cb50369ace46"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="99927587-4c5f-4de0-b4a6-8f75260389af"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="aebb8b3f-6ffb-46c3-b8b8-729f1585cd04"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="acb5398f-11a3-448f-9d26-90b49452a26c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7c71e953-3ded-4473-afdb-b5c4fe004978"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="eb67921b-407d-403b-94cf-e9ccc137e65d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="507c529d-cc37-4dd0-9d0c-0b39915f1341"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ca201f4c-845e-4785-8b01-182a2062fa9b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d05415da-edd4-4d77-b2e0-6c2c3d49d6a4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0f1fd5db-8d7c-4513-be96-36f64e21f28a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d1af1896-fbbe-4a6f-9076-0c4d64aa6f0b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f85a4cb6-d815-4e13-8b2b-9483f7532c7d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e932fe58-bb49-432c-9fb8-645f70732bc4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ad9aa381-a15a-4ffa-808a-67121bd7481c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d9b1329e-ff6a-475c-921f-fa8534ea6e44"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c709f5fa-275e-4720-9488-3b19cdef34a8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2b897ef2-0bcc-4b6b-bd07-3dd32cb17e86"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="95a67e71-dedd-46d5-b7a6-3f766acbb478"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d766043e-b7ed-4c90-8e27-acfbdb029010"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="36e39e1d-91c5-4b99-b407-eee92600f4d3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ffd472f2-0af5-412c-b09c-2c5bfb4601e0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="69360929-4d99-437a-80b0-f446269b16be"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7dbc433b-7c57-4014-860c-cf5782ff36c2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4c9f153f-f977-4a92-a706-19aad25da8c6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9a6d9bd9-35a1-4e22-a347-f2bc6fc06c78"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="87dfd52e-0b62-4e12-9595-1dd39a974d05"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="be502593-f744-43c9-ac0f-09044f4940b7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e8d665e3-c0ae-426d-9839-8535ecde07ce"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e5bbc4b2-3175-401d-b635-8ac5ef0b503b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f41ea6ed-cdb6-4e46-99de-4dc468f9f35c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d1bb712d-541b-47c7-8a1e-6a2c2dd106c2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fcbc7174-21e1-418f-b3ce-9830cfa708cc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ba4b5ff3-9217-404d-9c05-c7323aa8322b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="086a8b39-e1ca-4f51-8fd5-775a6a189adf"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a1f6bffd-7363-43c7-b910-3c1c01260c6b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="653c1e82-716e-4c2d-8d7d-c24a0a77f123"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="71c44029-57f2-4f08-94be-163c2e00c2b4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="05fd7353-5f08-43bb-b494-e3d1c4826f33"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="807ed71a-1d9c-48ea-85a1-fcbd4b6ec0e8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ece655a0-87a0-4319-8ac1-911dcea945f2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d3aedf5b-8311-4b5e-9fd5-13922eb445a4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="213f3618-7dbc-4d88-a865-b63944f00843"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2f4bd3d7-496a-4d04-9cb7-f0214aa31c04"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0cd6b826-544b-4124-9d30-4b2f0787cac7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cfeefaea-211e-4f7e-803b-e2253c054286"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1eb30780-f674-4964-9efd-e4c19590db6d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4583df79-4c41-478e-9ae6-0f526ffdf106"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ab13767e-edb7-4ed1-9491-e3007c205898"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ed73f8be-863f-4609-8b72-a03baac20a62"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6e64be05-7b2b-4d38-b287-ae43f04c3b9f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2479647b-6143-4859-ab0a-dab774af3c13"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bc07c82f-79e6-45b5-8dde-2e9120fcf307"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3aeda950-502d-4063-a88f-431d4acdae75"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a63a1666-35b7-49c8-90de-98db1142798d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9fbf2ac5-c031-46cc-99c4-775e4e5234c9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4420be26-2f70-4664-9ad8-189e48bd5032"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="405b8a16-c063-4d60-ab8a-9c32579dd6b3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d771b5fb-c6b2-4231-bf69-5eca0fae4129"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d40162fb-9ca5-40b4-82fb-392dffabeb30"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a3afbd47-532f-4690-bb41-88110b897fa9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c8287d12-ff4d-4443-91a7-7aaa7ade01c5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c2c99f71-9f5b-4e49-bdf2-4b0a514069f1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="49e3e5e0-dff9-434c-854d-05b8947807bb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ed936658-82c1-409c-b6e5-6615bd8f059e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b5647f95-982a-4224-8b54-6001d0bcbcc0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="323be8b9-8e34-486d-bb36-458b4ceb56f4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e2769e3c-6a4f-4e23-a2ec-3eabd8d642a5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9c54cfbf-2b62-4a23-a423-15bbe32e1afd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8ec97d38-9ea8-408d-bb17-bd674fcbb77a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f62e3ca8-29b1-4776-a7e0-5bd7dee28122"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0758db4e-4cc8-4108-a546-7ef037e6491a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e13a6ce6-f9bf-4b77-8e4e-e0cd316296dd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0d4f7459-79d5-40aa-9988-d9e5a89faadb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7d57fd26-0f12-4e19-a4a6-2ba545ea8cb7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="12d6ef15-115b-41ff-bb34-a9ec8e7d3c77"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="aaf7e6c7-f0d5-41d6-873a-863c1458d1a0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0872de47-347b-43c9-ae52-ede8817c6d65"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="092ac8f6-df0b-4664-a404-9758cb894254"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a3034b47-756f-40c3-86cd-be706dc0f0f8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="accd80ca-84af-4ec8-8d5d-7b2e54ba8c68"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3e1ab6fa-c634-48d5-9ccd-5818ab66d9cd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="53008557-7726-4cb7-8b24-8f9ba713a49a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="59c275a3-095e-45e1-9fd9-e0157725d011"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0938ded8-e217-454e-bdaf-b556fcd8096d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="daf97160-fa87-4d2f-9be9-ab04aaf41931"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5c8edaf8-04a7-44d8-b295-4e696fc8ae87"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9240a1f6-3e8b-4e3f-85ab-402be86bdc31"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="01db9879-2d8a-43e3-864a-4a9154af1ce8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="de5a1926-3c66-472a-8002-e619827336dc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7d6ab79b-15fb-4efa-a69f-94f32b875ebf"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7279b005-b9a5-4607-83f9-f2f4819b3322"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9513fa90-7f46-4615-933a-078608c70517"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b90d0fa6-5ed4-4b0d-88a4-7a7d2c28aa7d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="77e9294e-bac6-43c0-ba41-ef6056531ded"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5cc10f2a-c0de-453f-b158-18a64339b4dd"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e494d6f6-d61e-4884-87c0-278b6f8ecb1a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1cd49fdf-cf18-404d-a97c-d16c41429753"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0188d945-94b9-4018-bdd7-76bd8cfd897e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="965465cc-b52c-4b51-bdbc-a06de8a4b3b0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2c9fdb6d-3a3d-4749-9f7f-b6125fce0150"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="7c4a5af3-2561-4f86-b0b5-b0127d48a4d4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5265eac4-043f-4ce8-90f4-b036691a9bdb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="804ed2df-07b3-47b1-b36b-464bfd984a8f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ba6c72ec-fdaf-4e09-a810-02e18be17515"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="99064afb-7593-4d1f-b532-e5b2bdd54f1a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="447745a9-7eb9-4437-be48-97333d6b0312"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="092d3ea5-e7c1-4a8a-bca2-7f3325a890f3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d97d6b29-bcbd-4a4a-9dac-df8c0e18894c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3722525c-c235-4f49-89aa-b2a4f7724da6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9b06de71-ebb6-4490-b5ab-860c39b1690a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8e6bb466-b76d-4872-8c88-22e101c13198"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b0787aee-ae55-4f30-a807-016b9043740d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b53fee97-a9c0-4ed1-8749-947e5e89ac6a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="842d79f2-ce1b-4d37-a049-4318c99a1f9a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="30af7d73-305e-41b0-8127-0839a0d729d0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3e48a5c4-c700-4008-9664-a32c26961baf"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0d70b1af-5859-4066-b47a-8c334d606726"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3a0c9bcc-7a4a-4ea6-8d22-19e87fe1655b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="02f51685-5c14-4e7d-bd02-3128c8db8027"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="84febfee-1615-4bc8-b0c6-e48cb2f48df7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3ba306c5-c1fb-432b-88f8-b2ee6726d136"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1c6f559e-966e-4656-a580-94a7e8adc006"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8243d3d1-2f6c-4353-8c94-3bbf9f80d8be"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fc9242cd-57aa-4bf6-84cf-9eb04c0ae561"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4af29803-9bd6-4742-a70d-5cf357515745"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="32aa192a-83cf-43bb-9c85-8fa75051dd24"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cb0695b0-021a-4003-81f9-f9d23a3a7aec"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ca255460-6b0f-4b75-b413-8ad2b5c8aeab"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="06ad439b-3ce3-4f27-b2e9-09788d82d497"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9434b2aa-c002-4c17-beff-feca6fb24712"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5398dc67-59d8-4dee-9b19-0239d1e71e08"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="06bb30ea-34fb-4fe4-be86-54d3c6e5d8c6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="41c7fafd-bfac-4895-8ee3-92db63fa0b59"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="60a52a74-9eb9-4639-9282-9727924ba5e9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a441dedc-8876-4351-8c40-dc70de659531"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2098324d-69d3-467c-a7e3-f7dedecaa922"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="fdad09bb-0a55-4a85-b1c0-504e24419f30"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bdfeae8a-683a-4dc8-b9f6-6351e27e640e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8a5253ad-26cf-43e4-96a4-d8dd5fcf550c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4107a17d-2677-4d42-9819-8b82850c772c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="204fb3bc-7b97-4d98-80c3-7d7970ceb388"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bd98bb13-34b6-4e69-aad6-e590bfe0835d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3c338cd1-98d3-44c0-8bb2-2c770f042ea3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="0e3d9bb0-7d51-474e-ae57-75f16348179d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="082543b5-b3f0-4020-a1b9-5f1e6f40ac3f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2cf413d7-4787-4b43-9060-d5b674d59dc1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="22c7a89e-ac77-4294-ad44-a3cd21cc016e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="834cdc27-ce0c-4012-87f0-929d8ac78167"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="5a231e16-32c8-4ad0-b927-870d1eb6e2d7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="45ff2d46-1772-465a-8cde-526597ccc71a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="04371729-13a3-4fb7-a8d0-41f7d63628d2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e5d1c761-2ede-49d4-8714-0f8e8a76214a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a7a8f8c3-acb1-4746-95f6-233a0d6fb5b7"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="98e9e71f-2310-4ccf-b2d0-325894326e95"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f983c5b4-30ef-4953-983a-10670460a0d8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="063f7d27-a225-4978-8d4d-8d96d276e529"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="16a46cbe-8a8b-4fac-917b-e18eaf4d2cc2"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="397986d6-5830-42fa-95e7-a711714efb3e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b08d6d50-ad0b-49e3-8bbb-338cfc0d4a4f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="683a83af-faa0-46b1-9938-7895247ce9b3"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a3a41862-8253-4d62-a85c-e7ebedaab391"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="77e148d8-66bc-4c94-831d-b1a4b2d6e596"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cf21bd6c-c871-439a-8bfb-ea3714bb74cb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e5d618cc-f300-4f91-be78-cbc87e630f04"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9353c852-c08c-4711-856f-92d586924183"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3acbe025-7508-4c3a-ae83-7e0082f6945a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4219295d-0f5e-4fb1-ae2d-747766dacb5e"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1bff77d7-1493-4685-9c4e-d8718cff6fe4"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a7125eb1-5bb4-41e9-8af1-b0d5fa23b307"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3a1e3c78-61f0-44e8-b92d-18aed9cb1bcc"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f452d1f7-0774-460e-8274-a8afd4b62f82"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="73160fb2-11c7-4426-9d97-6e8e0035cd4f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="1aebc1d5-2f41-4a4b-b04f-e140d3936010"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="81daf5c5-3069-4977-a3cf-97738529a2cb"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="6f70739e-a820-499e-9110-f3c2f72779ff"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="53e65841-d979-441f-bfb6-09288b33692d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="422d5519-88f9-469f-82f6-f33b3bf959b8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3334259e-5b8c-4735-904c-86538cc97a8c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="86e8fa13-de7e-482b-9af9-f996b4678f4a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a712e509-9cd2-413d-8ebc-f8d901a91ded"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d2cdebcc-112f-4a1b-8781-362e6f6a32c8"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8f6abd73-135f-429f-9a90-56e393bee7ec"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b44e4228-bef4-4b8a-be66-2070523d3615"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f0fcf5d7-5849-4c23-a915-ae6e8f4893ac"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="77ee1b9c-c6b0-40c3-870a-d93785feed6c"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="a1458dd5-a76b-461a-bb45-c1e9e8fd27db"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="d856c017-8e49-4ebc-9d76-591d2ca06a2a"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e821f7be-b1a9-43b2-b6b0-83de880d7981"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3a3a0417-3fe0-47e6-94fb-c3a4052e97f6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="9d75b60d-919d-40f4-a81f-66a960142525"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f420eaf8-8644-4558-927c-a6818e904d01"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="265e7e8a-e32e-4ff6-9a08-7368acff65ae"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="e44d65b7-4aec-4e30-9c37-c50acc170ee0"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="04da64de-e1c2-4683-82a8-6f2d03ca92a5"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c290c9b8-592e-47ba-a695-285ce3d0b5ac"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="3f1359e5-87f7-43ab-b2cb-14db4c9bea7f"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ca097b1a-3fe2-448e-b46b-e3faf94d7087"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="f8e4708b-9f22-4a9c-8ce8-ad34086e31ec"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b9f2f6a4-c57d-4ad6-be1a-204a20ae4b90"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="2928fe3d-578a-46dd-ba4b-8325070d3446"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="bdd29d05-aac3-4422-b6dc-1c62642c38c1"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="82b506d7-0c62-4f5d-9a73-3e3e077a5d40"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ceb39a76-c5ba-4116-a489-5d3f71189604"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="ae9629b9-e087-46a8-a76f-9c2f38e1e662"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="facade0f-1d8c-4e48-a2da-025f4c39c086"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="60ebd66d-34e5-4e8b-bfff-82c1ad601782"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="cef5b5f8-5461-446b-a58a-2ed6a6a4c18b"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="c5664254-2679-472a-b0bb-54de092ef7b6"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="191bfd71-8bfd-4c5d-be6b-66067af4e71d"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="4cebb37c-c279-491f-a70f-7f584153b573"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="80c0e446-522b-45d8-bd67-c4b3f418a9d9"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="b7978ece-4f88-4d81-9475-37ee65b73057"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="40d60525-39ec-49f7-a3f4-c52ea492f789"/>
+        </insert>
+
+        <insert tableName="ticket">
+            <column name="ticket_id" valueSequenceNext="ticket_sequence"/>
+            <column name="external_id" value="8898616c-fac5-456c-9ff7-30134cf44e3c"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

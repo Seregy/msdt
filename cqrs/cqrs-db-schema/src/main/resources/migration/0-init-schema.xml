@@ -1,0 +1,53 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <changeSet id="2019-06-16-1" author="seregy77">
+        <comment>Create ticket sequence</comment>
+
+        <createSequence sequenceName="ticket_sequence"/>
+    </changeSet>
+
+    <changeSet id="2019-06-16-2" author="seregy77">
+        <comment>Create ticket table</comment>
+
+        <createTable tableName="ticket">
+            <column name="ticket_id" type="bigint">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="external_id" type="varchar">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="available" type="boolean" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2019-06-16-3" author="seregy77">
+        <comment>Create ticket_order sequence</comment>
+
+        <createSequence sequenceName="ticket_order_sequence"/>
+    </changeSet>
+
+    <changeSet id="2019-06-16-4" author="seregy77">
+        <comment>Create ticket_order table</comment>
+
+        <createTable tableName="ticket_order">
+            <column name="order_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="ticket_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2019-06-16-5" author="seregy77">
+        <comment>Add foreign key constraint to ticket_order table</comment>
+
+        <addForeignKeyConstraint baseTableName="ticket_order" baseColumnNames="ticket_id"
+                                 constraintName="fk_order_ticket" referencedTableName="ticket"
+                                 referencedColumnNames="ticket_id"/>
+    </changeSet>
+
+</databaseChangeLog>

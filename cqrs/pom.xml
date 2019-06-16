@@ -14,6 +14,7 @@
         <module>cqrs-command-consumer</module>
         <module>cqrs-query-rest</module>
         <module>cqrs-command-rest-client</module>
+        <module>cqrs-db-schema</module>
     </modules>
 
 
