@@ -20,14 +20,14 @@ import java.util.Optional;
 @Service
 @RequiredArgsConstructor
 public class CommandConsumer {
-    private static final String TOPIC = "purchase";
+    private static final String TOPIC_PURCHASE = "purchase";
     private static final String GROUP_ID = "initial";
 
     private final TicketRepository ticketRepository;
     private final OrderRepository orderRepository;
 
     @Transactional
-    @KafkaListener(topics = TOPIC, groupId = GROUP_ID)
+    @KafkaListener(topics = TOPIC_PURCHASE, groupId = GROUP_ID)
     public void processPurchasedTicket(ConsumerRecord<String, PurchaseTicketCommand> record) {
         log.info("{} [{}-{}] | Received message: {}",
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")), record.topic(), record.partition(), record.value());
@@ -38,19 +38,19 @@ public class CommandConsumer {
 
     private TicketEntity createOrUpdateTicket(ConsumerRecord<String, PurchaseTicketCommand> record) {
         TicketEntity ticketEntity = findOrCreateTicket(record.value().getTicketId());
-        return ticketRepository.save(ticketEntity);
+        TicketEntity updatedTicket = updateTicketAvailability(ticketEntity);
+        return ticketRepository.save(updatedTicket);
     }
 
     private TicketEntity findOrCreateTicket(long externalId) {
         Optional<TicketEntity> ticketEntityOptional = ticketRepository.findByExternalId(externalId);
         if (ticketEntityOptional.isPresent()) {
-            TicketEntity ticketEntity = ticketEntityOptional.get();
-            return updateTicketAvailability(ticketEntity);
+            return ticketEntityOptional.get();
         }
 
         TicketEntity ticketEntity = new TicketEntity();
         ticketEntity.setExternalId(externalId);
-        return updateTicketAvailability(ticketEntity);
+        return ticketEntity;
     }
 
     private TicketEntity updateTicketAvailability(TicketEntity ticketEntity) {
@@ -58,9 +58,9 @@ public class CommandConsumer {
         return ticketRepository.save(ticketEntity);
     }
 
-    private OrderEntity createOrder(TicketEntity ticketEntity) {
+    private void createOrder(TicketEntity ticketEntity) {
         OrderEntity orderEntity = new OrderEntity();
         orderEntity.setTicket(ticketEntity);
-        return orderRepository.save(orderEntity);
+        orderRepository.save(orderEntity);
     }
 }
