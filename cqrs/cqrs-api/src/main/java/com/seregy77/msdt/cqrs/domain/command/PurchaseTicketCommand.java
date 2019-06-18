@@ -10,5 +10,5 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PurchaseTicketCommand {
-    private UUID ticketId;
+    private String ticketId;
 }

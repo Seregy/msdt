@@ -16,10 +16,10 @@ public class TicketEntity {
     @Id
     @Column(name = "ticket_id", nullable = false)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ticket_generator")
-    @SequenceGenerator(name = "ticket_generator", sequenceName = "ticket_sequence")
+    @SequenceGenerator(name = "ticket_generator", sequenceName = "ticket_sequence", allocationSize = 1)
     private Long id;
     @Column(name = "external_id", nullable = false, unique = true)
-    private UUID externalId;
+    private String externalId;
     @Column(name = "available", nullable = false)
     private boolean available;
 }

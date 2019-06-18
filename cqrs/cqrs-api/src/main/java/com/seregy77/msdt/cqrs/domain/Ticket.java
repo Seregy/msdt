@@ -8,10 +8,10 @@ import java.util.UUID;
 
 @Data
 public class Ticket {
-    private final UUID id;
+    private final String id;
 
     @JsonCreator
-    public Ticket(@JsonProperty("id") UUID id) {
+    public Ticket(@JsonProperty("id") String id) {
         this.id = id;
     }
 }

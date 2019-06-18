@@ -14,7 +14,7 @@ public class TicketPurchaseScheduler {
 
     @Scheduled(fixedRate = 5 * 1000)
     public void sendNewMessage() {
-        ticketPurchaseService.purchaseTicket(UUID.randomUUID());
+        ticketPurchaseService.purchaseTicket(UUID.randomUUID().toString());
     }
 }
 

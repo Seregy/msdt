@@ -43,7 +43,7 @@ public class CommandConsumer {
         return ticketRepository.save(updatedTicket);
     }
 
-    private TicketEntity findOrCreateTicket(UUID externalId) {
+    private TicketEntity findOrCreateTicket(String externalId) {
         Optional<TicketEntity> ticketEntityOptional = ticketRepository.findByExternalId(externalId);
         if (ticketEntityOptional.isPresent()) {
             return ticketEntityOptional.get();

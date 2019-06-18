@@ -9,5 +9,5 @@ import java.util.UUID;
 
 @Repository
 public interface TicketRepository extends JpaRepository<TicketEntity, Long> {
-    Optional<TicketEntity> findByExternalId(UUID externalId);
+    Optional<TicketEntity> findByExternalId(String externalId);
 }

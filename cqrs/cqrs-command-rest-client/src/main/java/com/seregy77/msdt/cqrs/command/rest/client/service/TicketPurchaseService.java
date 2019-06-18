@@ -20,7 +20,7 @@ public class TicketPurchaseService {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    public void purchaseTicket(UUID id) {
+    public void purchaseTicket(String id) {
         log.info("{} | Send request for purchasing ticket {}",
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")), id);
         restTemplate.postForEntity(URL + "/ticket/purchased/", new PurchaseTicketCommand(id), Void.class);

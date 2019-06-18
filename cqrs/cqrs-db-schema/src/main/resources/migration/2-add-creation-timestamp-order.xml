@@ -1,0 +1,28 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <property name="current_timestamp" value="CURRENT_TIMESTAMP()" dbms="h2"/>
+
+    <changeSet id="2019-06-18-1" author="seregy77">
+        <comment>Add creation timestamp to ticket_order</comment>
+
+        <addColumn tableName="ticket_order">
+            <column name="creation_timestamp" type="timestamp" />
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="2019-06-18-2" author="seregy77">
+        <comment>Set creation timestamp for existing records in ticket_order</comment>
+
+        <sql>
+            UPDATE ticket_order
+            SET creation_timestamp = ${current_timestamp}
+        </sql>
+    </changeSet>
+
+    <changeSet id="2019-06-18-3" author="seregy77">
+        <comment>Add not null constraint to creation_timestamp column of ticket_order</comment>
+
+        <addNotNullConstraint tableName="ticket_order" columnName="creation_timestamp" columnDataType="timestamp"/>
+    </changeSet>
+</databaseChangeLog>
