@@ -56,13 +56,13 @@ services:
     ports:
       - "8290:8290"
     environment:
-      - REST_URL=cqrs-command-rest:8190
+      - REST_URL=http://cqrs-command-rest:8190
     networks:
       - sb
 
   cqrs-query-rest:
     build:
-      context: cqrs-command-rest
+      context: cqrs-query-rest
     ports:
       - "8390:8390"
     networks:
