@@ -3,7 +3,9 @@ package com.seregy77.msdt.cqrs.query.rest;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.cache.annotation.EnableCaching;
 
+@EnableCaching
 @EntityScan("com.seregy77.msdt.cqrs.entity")
 @SpringBootApplication
 public class QueryRestApplication {

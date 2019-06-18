@@ -1,4 +1,4 @@
-package com.seregy77.msdt.cqrs.command.consumer.entity;
+package com.seregy77.msdt.cqrs.entity;
 
 import com.seregy77.msdt.cqrs.entity.TicketEntity;
 import lombok.Data;

@@ -1,6 +1,6 @@
 package com.seregy77.msdt.cqrs.command.consumer.service;
 
-import com.seregy77.msdt.cqrs.command.consumer.entity.OrderEntity;
+import com.seregy77.msdt.cqrs.entity.OrderEntity;
 import com.seregy77.msdt.cqrs.command.consumer.repository.OrderRepository;
 import com.seregy77.msdt.cqrs.command.consumer.repository.TicketRepository;
 import com.seregy77.msdt.cqrs.domain.command.PurchaseTicketCommand;
@@ -10,12 +10,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Optional;
-import java.util.UUID;
 
 @Slf4j
 @Service
@@ -26,6 +25,7 @@ public class CommandConsumer {
 
     private final TicketRepository ticketRepository;
     private final OrderRepository orderRepository;
+    private final OrderCachingService orderCachingService;
 
     @Transactional
     @KafkaListener(topics = TOPIC_PURCHASE, groupId = GROUP_ID)
@@ -33,8 +33,16 @@ public class CommandConsumer {
         log.info("{} [{}-{}] | Received message: {}",
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")), record.topic(), record.partition(), record.value());
 
+        String ticketId = record.value().getTicketId();
+        if (orderCachingService.isCached(ticketId)) {
+            log.info("{} | Ticket with id [{}] is already contained, ignoring the request",
+                    LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss")), ticketId);
+            return;
+        }
+
         TicketEntity newTicket = createOrUpdateTicket(record);
         createOrder(newTicket);
+        orderCachingService.cache(ticketId);
     }
 
     private TicketEntity createOrUpdateTicket(ConsumerRecord<String, PurchaseTicketCommand> record) {
